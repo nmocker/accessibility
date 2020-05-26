@@ -1,3 +1,5 @@
-console.log(`Hello World from main.js! 
-Change this message, and make sure it changes in the browser 
-to verify that you're working in the right files.`)
+window.onload = function () {
+  document.getElementById("sign-up-btn").addEventListener("click", function () {
+    document.querySelector(".signup").classList.add("active");
+  });
+};
